@@ -1,0 +1,1167 @@
+$date
+	Tue Mar 10 01:23:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_systolic $end
+$var wire 1 ! valid_out $end
+$var reg 1 " clk $end
+$var reg 1 # reset $end
+$var reg 1 $ valid_in $end
+$var integer 32 % cycle [31:0] $end
+$var integer 32 & errors [31:0] $end
+$var integer 32 ' i [31:0] $end
+$var integer 32 ( j [31:0] $end
+$var integer 32 ) k [31:0] $end
+$var integer 32 * t [31:0] $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 $ valid_in $end
+$var wire 1 ! valid_out $end
+$scope begin rows[0] $end
+$scope begin cols[0] $end
+$var wire 16 + a_in_sel [15:0] $end
+$var wire 16 , b_in_sel [15:0] $end
+$var wire 1 - valid_in_sel $end
+$scope module pe $end
+$var wire 16 . a_in [15:0] $end
+$var wire 16 / b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 - valid_in $end
+$var reg 16 0 a_out [15:0] $end
+$var reg 16 1 b_out [15:0] $end
+$var reg 32 2 c_out [31:0] $end
+$var reg 1 3 valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[1] $end
+$var wire 16 4 a_in_sel [15:0] $end
+$var wire 16 5 b_in_sel [15:0] $end
+$var wire 1 6 valid_in_sel $end
+$scope module pe $end
+$var wire 16 7 a_in [15:0] $end
+$var wire 16 8 b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 6 valid_in $end
+$var reg 16 9 a_out [15:0] $end
+$var reg 16 : b_out [15:0] $end
+$var reg 32 ; c_out [31:0] $end
+$var reg 1 < valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[2] $end
+$var wire 16 = a_in_sel [15:0] $end
+$var wire 16 > b_in_sel [15:0] $end
+$var wire 1 ? valid_in_sel $end
+$scope module pe $end
+$var wire 16 @ a_in [15:0] $end
+$var wire 16 A b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 ? valid_in $end
+$var reg 16 B a_out [15:0] $end
+$var reg 16 C b_out [15:0] $end
+$var reg 32 D c_out [31:0] $end
+$var reg 1 E valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[3] $end
+$var wire 16 F a_in_sel [15:0] $end
+$var wire 16 G b_in_sel [15:0] $end
+$var wire 1 H valid_in_sel $end
+$scope module pe $end
+$var wire 16 I a_in [15:0] $end
+$var wire 16 J b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 H valid_in $end
+$var reg 16 K a_out [15:0] $end
+$var reg 16 L b_out [15:0] $end
+$var reg 32 M c_out [31:0] $end
+$var reg 1 N valid_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rows[1] $end
+$scope begin cols[0] $end
+$var wire 16 O a_in_sel [15:0] $end
+$var wire 16 P b_in_sel [15:0] $end
+$var wire 1 Q valid_in_sel $end
+$scope module pe $end
+$var wire 16 R a_in [15:0] $end
+$var wire 16 S b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 Q valid_in $end
+$var reg 16 T a_out [15:0] $end
+$var reg 16 U b_out [15:0] $end
+$var reg 32 V c_out [31:0] $end
+$var reg 1 W valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[1] $end
+$var wire 16 X a_in_sel [15:0] $end
+$var wire 16 Y b_in_sel [15:0] $end
+$var wire 1 Z valid_in_sel $end
+$scope module pe $end
+$var wire 16 [ a_in [15:0] $end
+$var wire 16 \ b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 Z valid_in $end
+$var reg 16 ] a_out [15:0] $end
+$var reg 16 ^ b_out [15:0] $end
+$var reg 32 _ c_out [31:0] $end
+$var reg 1 ` valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[2] $end
+$var wire 16 a a_in_sel [15:0] $end
+$var wire 16 b b_in_sel [15:0] $end
+$var wire 1 c valid_in_sel $end
+$scope module pe $end
+$var wire 16 d a_in [15:0] $end
+$var wire 16 e b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 c valid_in $end
+$var reg 16 f a_out [15:0] $end
+$var reg 16 g b_out [15:0] $end
+$var reg 32 h c_out [31:0] $end
+$var reg 1 i valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[3] $end
+$var wire 16 j a_in_sel [15:0] $end
+$var wire 16 k b_in_sel [15:0] $end
+$var wire 1 l valid_in_sel $end
+$scope module pe $end
+$var wire 16 m a_in [15:0] $end
+$var wire 16 n b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 l valid_in $end
+$var reg 16 o a_out [15:0] $end
+$var reg 16 p b_out [15:0] $end
+$var reg 32 q c_out [31:0] $end
+$var reg 1 r valid_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rows[2] $end
+$scope begin cols[0] $end
+$var wire 16 s a_in_sel [15:0] $end
+$var wire 16 t b_in_sel [15:0] $end
+$var wire 1 u valid_in_sel $end
+$scope module pe $end
+$var wire 16 v a_in [15:0] $end
+$var wire 16 w b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 u valid_in $end
+$var reg 16 x a_out [15:0] $end
+$var reg 16 y b_out [15:0] $end
+$var reg 32 z c_out [31:0] $end
+$var reg 1 { valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[1] $end
+$var wire 16 | a_in_sel [15:0] $end
+$var wire 16 } b_in_sel [15:0] $end
+$var wire 1 ~ valid_in_sel $end
+$scope module pe $end
+$var wire 16 !" a_in [15:0] $end
+$var wire 16 "" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 ~ valid_in $end
+$var reg 16 #" a_out [15:0] $end
+$var reg 16 $" b_out [15:0] $end
+$var reg 32 %" c_out [31:0] $end
+$var reg 1 &" valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[2] $end
+$var wire 16 '" a_in_sel [15:0] $end
+$var wire 16 (" b_in_sel [15:0] $end
+$var wire 1 )" valid_in_sel $end
+$scope module pe $end
+$var wire 16 *" a_in [15:0] $end
+$var wire 16 +" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 )" valid_in $end
+$var reg 16 ," a_out [15:0] $end
+$var reg 16 -" b_out [15:0] $end
+$var reg 32 ." c_out [31:0] $end
+$var reg 1 /" valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[3] $end
+$var wire 16 0" a_in_sel [15:0] $end
+$var wire 16 1" b_in_sel [15:0] $end
+$var wire 1 2" valid_in_sel $end
+$scope module pe $end
+$var wire 16 3" a_in [15:0] $end
+$var wire 16 4" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 2" valid_in $end
+$var reg 16 5" a_out [15:0] $end
+$var reg 16 6" b_out [15:0] $end
+$var reg 32 7" c_out [31:0] $end
+$var reg 1 8" valid_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope begin rows[3] $end
+$scope begin cols[0] $end
+$var wire 16 9" a_in_sel [15:0] $end
+$var wire 16 :" b_in_sel [15:0] $end
+$var wire 1 ;" valid_in_sel $end
+$scope module pe $end
+$var wire 16 <" a_in [15:0] $end
+$var wire 16 =" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 ;" valid_in $end
+$var reg 16 >" a_out [15:0] $end
+$var reg 16 ?" b_out [15:0] $end
+$var reg 32 @" c_out [31:0] $end
+$var reg 1 A" valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[1] $end
+$var wire 16 B" a_in_sel [15:0] $end
+$var wire 16 C" b_in_sel [15:0] $end
+$var wire 1 D" valid_in_sel $end
+$scope module pe $end
+$var wire 16 E" a_in [15:0] $end
+$var wire 16 F" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 D" valid_in $end
+$var reg 16 G" a_out [15:0] $end
+$var reg 16 H" b_out [15:0] $end
+$var reg 32 I" c_out [31:0] $end
+$var reg 1 J" valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[2] $end
+$var wire 16 K" a_in_sel [15:0] $end
+$var wire 16 L" b_in_sel [15:0] $end
+$var wire 1 M" valid_in_sel $end
+$scope module pe $end
+$var wire 16 N" a_in [15:0] $end
+$var wire 16 O" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 M" valid_in $end
+$var reg 16 P" a_out [15:0] $end
+$var reg 16 Q" b_out [15:0] $end
+$var reg 32 R" c_out [31:0] $end
+$var reg 1 S" valid_out $end
+$upscope $end
+$upscope $end
+$scope begin cols[3] $end
+$var wire 16 T" a_in_sel [15:0] $end
+$var wire 16 U" b_in_sel [15:0] $end
+$var wire 1 V" valid_in_sel $end
+$scope module pe $end
+$var wire 16 W" a_in [15:0] $end
+$var wire 16 X" b_in [15:0] $end
+$var wire 1 " clk $end
+$var wire 1 # reset $end
+$var wire 1 V" valid_in $end
+$var reg 16 Y" a_out [15:0] $end
+$var reg 16 Z" b_out [15:0] $end
+$var reg 32 [" c_out [31:0] $end
+$var reg 1 \" valid_out $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x\"
+bx ["
+bx Z"
+bx Y"
+bx X"
+bx W"
+xV"
+bx U"
+bx T"
+xS"
+bx R"
+bx Q"
+bx P"
+bx O"
+bx N"
+xM"
+bx L"
+bx K"
+xJ"
+bx I"
+bx H"
+bx G"
+bx F"
+bx E"
+xD"
+bx C"
+bx B"
+xA"
+bx @"
+bx ?"
+bx >"
+bx ="
+b0 <"
+x;"
+bx :"
+b0 9"
+x8"
+bx 7"
+bx 6"
+bx 5"
+bx 4"
+bx 3"
+x2"
+bx 1"
+bx 0"
+x/"
+bx ."
+bx -"
+bx ,"
+bx +"
+bx *"
+x)"
+bx ("
+bx '"
+x&"
+bx %"
+bx $"
+bx #"
+bx ""
+bx !"
+x~
+bx }
+bx |
+x{
+bx z
+bx y
+bx x
+bx w
+b0 v
+xu
+bx t
+b0 s
+xr
+bx q
+bx p
+bx o
+bx n
+bx m
+xl
+bx k
+bx j
+xi
+bx h
+bx g
+bx f
+bx e
+bx d
+xc
+bx b
+bx a
+x`
+bx _
+bx ^
+bx ]
+bx \
+bx [
+xZ
+bx Y
+bx X
+xW
+bx V
+bx U
+bx T
+bx S
+b0 R
+xQ
+bx P
+b0 O
+xN
+bx M
+bx L
+bx K
+b0 J
+bx I
+xH
+b0 G
+bx F
+xE
+bx D
+bx C
+bx B
+b0 A
+bx @
+x?
+b0 >
+bx =
+x<
+bx ;
+bx :
+bx 9
+b0 8
+bx 7
+x6
+b0 5
+bx 4
+x3
+bx 2
+bx 1
+bx 0
+b0 /
+b0 .
+0-
+b0 ,
+b0 +
+b111 *
+b100 )
+b100 (
+b100 '
+bx &
+bx %
+0$
+1#
+0"
+x!
+$end
+#5000
+b0 2
+b0 P
+b0 S
+b0 1
+b0 4
+b0 7
+b0 0
+06
+0Q
+03
+b0 ;
+b0 Y
+b0 \
+b0 :
+b0 =
+b0 @
+b0 9
+x?
+x<
+b0 D
+b0 b
+b0 e
+b0 C
+b0 F
+b0 I
+b0 B
+xH
+xE
+b0 M
+b0 k
+b0 n
+b0 L
+b0 K
+xN
+b0 V
+b0 t
+b0 w
+b0 U
+b0 X
+b0 [
+b0 T
+xZ
+xu
+xW
+b0 _
+b0 }
+b0 ""
+b0 ^
+b0 a
+b0 d
+b0 ]
+xc
+x`
+b0 h
+b0 ("
+b0 +"
+b0 g
+b0 j
+b0 m
+b0 f
+xl
+xi
+b0 q
+b0 1"
+b0 4"
+b0 p
+b0 o
+xr
+b0 z
+b0 :"
+b0 ="
+b0 y
+b0 |
+b0 !"
+b0 x
+x~
+x;"
+x{
+b0 %"
+b0 C"
+b0 F"
+b0 $"
+b0 '"
+b0 *"
+b0 #"
+x)"
+x&"
+b0 ."
+b0 L"
+b0 O"
+b0 -"
+b0 0"
+b0 3"
+b0 ,"
+x2"
+x/"
+b0 7"
+b0 U"
+b0 X"
+b0 6"
+b0 5"
+x8"
+b0 @"
+b0 ?"
+b0 B"
+b0 E"
+b0 >"
+xD"
+xA"
+b0 I"
+b0 H"
+b0 K"
+b0 N"
+b0 G"
+xM"
+xJ"
+b0 R"
+b0 Q"
+b0 T"
+b0 W"
+b0 P"
+xV"
+xS"
+b0 ["
+b0 Z"
+b0 Y"
+x!
+x\"
+1"
+#10000
+0"
+#15000
+x!
+x\"
+xV"
+xS"
+xM"
+xJ"
+xD"
+xA"
+x8"
+x2"
+x/"
+x)"
+x&"
+x~
+x;"
+x{
+xr
+xl
+xi
+xc
+x`
+0Z
+0u
+0W
+xN
+xH
+xE
+0?
+0<
+1"
+#20000
+0"
+#25000
+0H
+0E
+xN
+0c
+0`
+xl
+xi
+xr
+0~
+0;"
+0{
+x)"
+x&"
+x2"
+x/"
+x8"
+xD"
+xA"
+xM"
+xJ"
+xV"
+xS"
+x!
+x\"
+1"
+#30000
+b0 %
+0#
+0"
+#35000
+0D"
+0A"
+0)"
+0&"
+0l
+0i
+0N
+1"
+#40000
+b1 %
+b1 ,
+b1 /
+b1 +
+b1 .
+1-
+1$
+0"
+#45000
+16
+1Q
+13
+b1 P
+b1 S
+b1 1
+b1 4
+b1 7
+b1 0
+b1 2
+0r
+02"
+0/"
+0M"
+0J"
+1"
+#50000
+b10 %
+b0 ,
+b0 /
+b101 O
+b101 R
+b10 +
+b10 .
+0"
+#55000
+0V"
+0S"
+08"
+1Z
+1u
+1W
+b1 t
+b1 w
+b1 U
+b101 X
+b101 [
+b101 T
+b101 V
+1?
+1<
+b1 =
+b1 @
+b1 9
+b0 P
+b0 S
+b0 1
+b10 4
+b10 7
+b10 0
+1"
+#60000
+b11 %
+b1 5
+b1 8
+b1001 s
+b1001 v
+b110 O
+b110 R
+b11 +
+b11 .
+0"
+#65000
+b11 4
+b11 7
+b11 0
+b1 Y
+b1 \
+b1 :
+b10 =
+b10 @
+b10 9
+b10 ;
+1H
+1E
+b1 F
+b1 I
+b1 B
+b0 t
+b0 w
+b0 U
+b110 X
+b110 [
+b110 T
+1c
+1`
+b101 a
+b101 d
+b101 ]
+1~
+1;"
+1{
+b1 :"
+b1 ="
+b1 y
+b1001 |
+b1001 !"
+b1001 x
+b1001 z
+0!
+0\"
+1"
+#70000
+b100 %
+b0 5
+b0 8
+b1101 9"
+b1101 <"
+b1010 s
+b1010 v
+b111 O
+b111 R
+b100 +
+b100 .
+0"
+#75000
+1D"
+1A"
+b1 ?"
+b1101 B"
+b1101 E"
+b1101 >"
+b1101 @"
+1)"
+1&"
+b1001 '"
+b1001 *"
+b1001 #"
+b0 :"
+b0 ="
+b0 y
+b1010 |
+b1010 !"
+b1010 x
+1l
+1i
+b101 j
+b101 m
+b101 f
+b1 }
+b1 ""
+b1 ^
+b110 a
+b110 d
+b110 ]
+b110 _
+b111 X
+b111 [
+b111 T
+1N
+b1 K
+b10 F
+b10 I
+b10 B
+b0 Y
+b0 \
+b0 :
+b11 =
+b11 @
+b11 9
+b100 4
+b100 7
+b100 0
+1"
+#80000
+b101 %
+b1 >
+b1 A
+b1110 9"
+b1110 <"
+b1011 s
+b1011 v
+b1000 O
+b1000 R
+b0 +
+b0 .
+0"
+#85000
+b0 4
+b0 7
+b0 0
+b100 =
+b100 @
+b100 9
+b1 b
+b1 e
+b1 C
+b11 F
+b11 I
+b11 B
+b11 D
+b10 K
+b1000 X
+b1000 [
+b1000 T
+b0 }
+b0 ""
+b0 ^
+b111 a
+b111 d
+b111 ]
+b110 j
+b110 m
+b110 f
+1r
+b101 o
+b1011 |
+b1011 !"
+b1011 x
+b1 C"
+b1 F"
+b1 $"
+b1010 '"
+b1010 *"
+b1010 #"
+b1010 %"
+12"
+1/"
+b1001 0"
+b1001 3"
+b1001 ,"
+b0 ?"
+b1110 B"
+b1110 E"
+b1110 >"
+1M"
+1J"
+b1101 K"
+b1101 N"
+b1101 G"
+1"
+#90000
+b110 %
+b0 >
+b0 A
+b1111 9"
+b1111 <"
+b1100 s
+b1100 v
+b0 O
+b0 R
+0"
+#95000
+1V"
+1S"
+b1101 T"
+b1101 W"
+b1101 P"
+b1 H"
+b1110 K"
+b1110 N"
+b1110 G"
+b1110 I"
+b1111 B"
+b1111 E"
+b1111 >"
+18"
+b1001 5"
+b1010 0"
+b1010 3"
+b1010 ,"
+b0 C"
+b0 F"
+b0 $"
+b1011 '"
+b1011 *"
+b1011 #"
+b1100 |
+b1100 !"
+b1100 x
+b110 o
+b1 ("
+b1 +"
+b1 g
+b111 j
+b111 m
+b111 f
+b111 h
+b1000 a
+b1000 d
+b1000 ]
+b0 X
+b0 [
+b0 T
+b11 K
+b0 b
+b0 e
+b0 C
+b100 F
+b100 I
+b100 B
+b0 =
+b0 @
+b0 9
+1"
+#100000
+b111 %
+b1 G
+b1 J
+b10000 9"
+b10000 <"
+b0 s
+b0 v
+0"
+#105000
+b0 F
+b0 I
+b0 B
+b1 k
+b1 n
+b1 L
+b100 K
+b100 M
+b0 a
+b0 d
+b0 ]
+b0 ("
+b0 +"
+b0 g
+b1000 j
+b1000 m
+b1000 f
+b111 o
+b0 |
+b0 !"
+b0 x
+b1100 '"
+b1100 *"
+b1100 #"
+b1 L"
+b1 O"
+b1 -"
+b1011 0"
+b1011 3"
+b1011 ,"
+b1011 ."
+b1010 5"
+b10000 B"
+b10000 E"
+b10000 >"
+b0 H"
+b1111 K"
+b1111 N"
+b1111 G"
+b1110 T"
+b1110 W"
+b1110 P"
+1!
+1\"
+b1101 Y"
+1"
+#110000
+b0 G
+b0 J
+b0 9"
+b0 <"
+0-
+0$
+0"
+#115000
+b1110 Y"
+b1 Q"
+b1111 T"
+b1111 W"
+b1111 P"
+b1111 R"
+b10000 K"
+b10000 N"
+b10000 G"
+b0 B"
+b0 E"
+b0 >"
+b1011 5"
+b0 L"
+b0 O"
+b0 -"
+b1100 0"
+b1100 3"
+b1100 ,"
+b0 '"
+b0 *"
+b0 #"
+b1 1"
+b1 4"
+b1 p
+b1000 o
+b1000 q
+b0 j
+b0 m
+b0 f
+b0 k
+b0 n
+b0 L
+b0 K
+06
+0Q
+03
+1"
+#120000
+0"
+#125000
+0?
+0<
+0Z
+0u
+0W
+b0 1"
+b0 4"
+b0 p
+b0 o
+b0 0"
+b0 3"
+b0 ,"
+b1 U"
+b1 X"
+b1 6"
+b1100 5"
+b1100 7"
+b0 K"
+b0 N"
+b0 G"
+b0 Q"
+b10000 T"
+b10000 W"
+b10000 P"
+b1111 Y"
+1"
+#130000
+0"
+#135000
+b1 Z"
+b10000 Y"
+b10000 ["
+b0 T"
+b0 W"
+b0 P"
+b0 U"
+b0 X"
+b0 6"
+b0 5"
+0~
+0;"
+0{
+0c
+0`
+0H
+0E
+1"
+#140000
+0"
+#145000
+0N
+0l
+0i
+0)"
+0&"
+0D"
+0A"
+b0 Z"
+b0 Y"
+1"
+#150000
+0"
+#155000
+0M"
+0J"
+02"
+0/"
+0r
+1"
+#160000
+0"
+#165000
+08"
+0V"
+0S"
+1"
+#170000
+0"
+#175000
+0!
+0\"
+1"
+#180000
+0"
+#185000
+1"
+#190000
+0"
+#195000
+1"
+#200000
+0"
+#205000
+1"
+#210000
+0"
+#215000
+1"
+#220000
+b100 (
+b100 '
+b0 &
+0"
