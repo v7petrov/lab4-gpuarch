@@ -29,6 +29,7 @@ mkdir -p "$BUILD_DIR"
 mkdir -p "$WAVE_DIR"
 
 RTL_FILES=("$RTL_DIR"/*.v)
+RTL_FILES+=("$RTL_DIR"/*.sv)
 
 OUT_FILE="$BUILD_DIR/${TEST_NAME}.out"
 

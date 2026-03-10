@@ -18,6 +18,7 @@ iverilog -V
 echo
 
 RTL_FILES=("$RTL_DIR"/*.v)
+RTL_FILES+=("$RTL_DIR"/*.sv)
 
 echo "== Compiling all tests (syntax + elaboration check) =="
 
